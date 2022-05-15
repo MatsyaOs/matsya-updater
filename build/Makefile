@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/updator
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/matsya-updater
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/updator/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/matsya-updater/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +145,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/updator/build/CMakeFiles /home/tokyo/clone/cuteclone/updator/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles /home/tokyo/Documents/GitHub/matsya-updater/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/updator/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -189,84 +189,30 @@ translations/fast:
 .PHONY : translations/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-updator
+# Target rules for targets named matsya-updator
 
 # Build rule for target.
-cutefish-updator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-updator
-.PHONY : cutefish-updator
+matsya-updator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-updator
+.PHONY : matsya-updator
 
 # fast build rule for target.
-cutefish-updator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/build
-.PHONY : cutefish-updator/fast
+matsya-updator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/build
+.PHONY : matsya-updator/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-updator_autogen
+# Target rules for targets named matsya-updator_autogen
 
 # Build rule for target.
-cutefish-updator_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-updator_autogen
-.PHONY : cutefish-updator_autogen
+matsya-updator_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-updator_autogen
+.PHONY : matsya-updator_autogen
 
 # fast build rule for target.
-cutefish-updator_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator_autogen.dir/build.make CMakeFiles/cutefish-updator_autogen.dir/build
-.PHONY : cutefish-updator_autogen/fast
-
-cutefish-updator_autogen/EWIEGA46WW/qrc_qml.o: cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp.o
-
-.PHONY : cutefish-updator_autogen/EWIEGA46WW/qrc_qml.o
-
-# target to build an object file
-cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp.o
-.PHONY : cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp.o
-
-cutefish-updator_autogen/EWIEGA46WW/qrc_qml.i: cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-.PHONY : cutefish-updator_autogen/EWIEGA46WW/qrc_qml.i
-
-# target to preprocess a source file
-cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp.i
-.PHONY : cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-cutefish-updator_autogen/EWIEGA46WW/qrc_qml.s: cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-.PHONY : cutefish-updator_autogen/EWIEGA46WW/qrc_qml.s
-
-# target to generate assembly for a file
-cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp.s
-.PHONY : cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-cutefish-updator_autogen/mocs_compilation.o: cutefish-updator_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-updator_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefish-updator_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/cutefish-updator_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-updator_autogen/mocs_compilation.cpp.o
-
-cutefish-updator_autogen/mocs_compilation.i: cutefish-updator_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefish-updator_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefish-updator_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/cutefish-updator_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-updator_autogen/mocs_compilation.cpp.i
-
-cutefish-updator_autogen/mocs_compilation.s: cutefish-updator_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefish-updator_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefish-updator_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/cutefish-updator_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-updator_autogen/mocs_compilation.cpp.s
+matsya-updator_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator_autogen.dir/build.make CMakeFiles/matsya-updator_autogen.dir/build
+.PHONY : matsya-updator_autogen/fast
 
 main.o: main.cpp.o
 
@@ -274,7 +220,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -283,7 +229,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -292,8 +238,62 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matsya-updator_autogen/EWIEGA46WW/qrc_qml.o: matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp.o
+
+.PHONY : matsya-updator_autogen/EWIEGA46WW/qrc_qml.o
+
+# target to build an object file
+matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp.o
+.PHONY : matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp.o
+
+matsya-updator_autogen/EWIEGA46WW/qrc_qml.i: matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp.i
+
+.PHONY : matsya-updator_autogen/EWIEGA46WW/qrc_qml.i
+
+# target to preprocess a source file
+matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp.i
+.PHONY : matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp.i
+
+matsya-updator_autogen/EWIEGA46WW/qrc_qml.s: matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
+.PHONY : matsya-updator_autogen/EWIEGA46WW/qrc_qml.s
+
+# target to generate assembly for a file
+matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp.s
+.PHONY : matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
+matsya-updator_autogen/mocs_compilation.o: matsya-updator_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-updator_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-updator_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/matsya-updator_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-updator_autogen/mocs_compilation.cpp.o
+
+matsya-updator_autogen/mocs_compilation.i: matsya-updator_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-updator_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-updator_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/matsya-updator_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-updator_autogen/mocs_compilation.cpp.i
+
+matsya-updator_autogen/mocs_compilation.s: matsya-updator_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-updator_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-updator_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/matsya-updator_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-updator_autogen/mocs_compilation.cpp.s
 
 updatorhelper.o: updatorhelper.cpp.o
 
@@ -301,7 +301,7 @@ updatorhelper.o: updatorhelper.cpp.o
 
 # target to build an object file
 updatorhelper.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/updatorhelper.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/updatorhelper.cpp.o
 .PHONY : updatorhelper.cpp.o
 
 updatorhelper.i: updatorhelper.cpp.i
@@ -310,7 +310,7 @@ updatorhelper.i: updatorhelper.cpp.i
 
 # target to preprocess a source file
 updatorhelper.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/updatorhelper.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/updatorhelper.cpp.i
 .PHONY : updatorhelper.cpp.i
 
 updatorhelper.s: updatorhelper.cpp.s
@@ -319,7 +319,7 @@ updatorhelper.s: updatorhelper.cpp.s
 
 # target to generate assembly for a file
 updatorhelper.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/updatorhelper.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/updatorhelper.cpp.s
 .PHONY : updatorhelper.cpp.s
 
 upgradeablemodel.o: upgradeablemodel.cpp.o
@@ -328,7 +328,7 @@ upgradeablemodel.o: upgradeablemodel.cpp.o
 
 # target to build an object file
 upgradeablemodel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/upgradeablemodel.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/upgradeablemodel.cpp.o
 .PHONY : upgradeablemodel.cpp.o
 
 upgradeablemodel.i: upgradeablemodel.cpp.i
@@ -337,7 +337,7 @@ upgradeablemodel.i: upgradeablemodel.cpp.i
 
 # target to preprocess a source file
 upgradeablemodel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/upgradeablemodel.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/upgradeablemodel.cpp.i
 .PHONY : upgradeablemodel.cpp.i
 
 upgradeablemodel.s: upgradeablemodel.cpp.s
@@ -346,7 +346,7 @@ upgradeablemodel.s: upgradeablemodel.cpp.s
 
 # target to generate assembly for a file
 upgradeablemodel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-updator.dir/build.make CMakeFiles/cutefish-updator.dir/upgradeablemodel.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-updator.dir/build.make CMakeFiles/matsya-updator.dir/upgradeablemodel.cpp.s
 .PHONY : upgradeablemodel.cpp.s
 
 # Help Target
@@ -361,18 +361,18 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-updator_autogen"
+	@echo "... matsya-updator_autogen"
 	@echo "... translations"
-	@echo "... cutefish-updator"
-	@echo "... cutefish-updator_autogen/EWIEGA46WW/qrc_qml.o"
-	@echo "... cutefish-updator_autogen/EWIEGA46WW/qrc_qml.i"
-	@echo "... cutefish-updator_autogen/EWIEGA46WW/qrc_qml.s"
-	@echo "... cutefish-updator_autogen/mocs_compilation.o"
-	@echo "... cutefish-updator_autogen/mocs_compilation.i"
-	@echo "... cutefish-updator_autogen/mocs_compilation.s"
+	@echo "... matsya-updator"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matsya-updator_autogen/EWIEGA46WW/qrc_qml.o"
+	@echo "... matsya-updator_autogen/EWIEGA46WW/qrc_qml.i"
+	@echo "... matsya-updator_autogen/EWIEGA46WW/qrc_qml.s"
+	@echo "... matsya-updator_autogen/mocs_compilation.o"
+	@echo "... matsya-updator_autogen/mocs_compilation.i"
+	@echo "... matsya-updator_autogen/mocs_compilation.s"
 	@echo "... updatorhelper.o"
 	@echo "... updatorhelper.i"
 	@echo "... updatorhelper.s"

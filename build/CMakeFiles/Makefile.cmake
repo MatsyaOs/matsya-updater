@@ -168,14 +168,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.18.4/CMakeSystem.cmake"
   "CMakeFiles/3.18.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.18.4/CMakeCXXCompiler.cmake"
-  "CMakeFiles/cutefish-updator_autogen.dir/AutogenInfo.json"
-  "CMakeFiles/cutefish-updator_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json"
+  "CMakeFiles/matsya-updator_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/matsya-updator_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/translations.dir/DependInfo.cmake"
-  "CMakeFiles/cutefish-updator.dir/DependInfo.cmake"
-  "CMakeFiles/cutefish-updator_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/matsya-updator.dir/DependInfo.cmake"
+  "CMakeFiles/matsya-updator_autogen.dir/DependInfo.cmake"
   )

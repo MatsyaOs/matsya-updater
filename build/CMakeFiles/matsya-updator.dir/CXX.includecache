@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/tokyo/clone/cuteclone/updator/build/cutefish-updator_autogen/EWIEGA46WW/moc_updatorhelper.cpp
+/home/tokyo/Documents/GitHub/matsya-updater/build/matsya-updator_autogen/EWIEGA46WW/moc_updatorhelper.cpp
 memory
 -
 ../../../updatorhelper.h
-/home/tokyo/clone/cuteclone/updator/updatorhelper.h
+/home/tokyo/Documents/GitHub/matsya-updater/updatorhelper.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/cuteclone/updator/build/cutefish-updator_autogen/EWIEGA46WW/moc_upgradeablemodel.cpp
+/home/tokyo/Documents/GitHub/matsya-updater/build/matsya-updator_autogen/EWIEGA46WW/moc_upgradeablemodel.cpp
 memory
 -
 ../../../upgradeablemodel.h
-/home/tokyo/clone/cuteclone/updator/upgradeablemodel.h
+/home/tokyo/Documents/GitHub/matsya-updater/upgradeablemodel.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/cuteclone/updator/build/cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp
+/home/tokyo/Documents/GitHub/matsya-updater/build/matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp
 
-/home/tokyo/clone/cuteclone/updator/build/cutefish-updator_autogen/mocs_compilation.cpp
+/home/tokyo/Documents/GitHub/matsya-updater/build/matsya-updator_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_updatorhelper.cpp
-/home/tokyo/clone/cuteclone/updator/build/cutefish-updator_autogen/EWIEGA46WW/moc_updatorhelper.cpp
+/home/tokyo/Documents/GitHub/matsya-updater/build/matsya-updator_autogen/EWIEGA46WW/moc_updatorhelper.cpp
 EWIEGA46WW/moc_upgradeablemodel.cpp
-/home/tokyo/clone/cuteclone/updator/build/cutefish-updator_autogen/EWIEGA46WW/moc_upgradeablemodel.cpp
+/home/tokyo/Documents/GitHub/matsya-updater/build/matsya-updator_autogen/EWIEGA46WW/moc_upgradeablemodel.cpp
 
-/home/tokyo/clone/cuteclone/updator/main.cpp
+/home/tokyo/Documents/GitHub/matsya-updater/main.cpp
 QGuiApplication
 -
 QQmlApplicationEngine
@@ -50,15 +50,15 @@ QLocale
 QFile
 -
 updatorhelper.h
-/home/tokyo/clone/cuteclone/updator/updatorhelper.h
+/home/tokyo/Documents/GitHub/matsya-updater/updatorhelper.h
 upgradeablemodel.h
-/home/tokyo/clone/cuteclone/updator/upgradeablemodel.h
+/home/tokyo/Documents/GitHub/matsya-updater/upgradeablemodel.h
 
-/home/tokyo/clone/cuteclone/updator/updatorhelper.cpp
+/home/tokyo/Documents/GitHub/matsya-updater/updatorhelper.cpp
 updatorhelper.h
-/home/tokyo/clone/cuteclone/updator/updatorhelper.h
+/home/tokyo/Documents/GitHub/matsya-updater/updatorhelper.h
 upgradeablemodel.h
-/home/tokyo/clone/cuteclone/updator/upgradeablemodel.h
+/home/tokyo/Documents/GitHub/matsya-updater/upgradeablemodel.h
 QSettings
 -
 QDBusInterface
@@ -70,7 +70,7 @@ QTimer
 QDebug
 -
 
-/home/tokyo/clone/cuteclone/updator/updatorhelper.h
+/home/tokyo/Documents/GitHub/matsya-updater/updatorhelper.h
 QObject
 -
 QApt/Backend
@@ -80,11 +80,11 @@ QApt/Config
 QApt/Transaction
 -
 
-/home/tokyo/clone/cuteclone/updator/upgradeablemodel.cpp
+/home/tokyo/Documents/GitHub/matsya-updater/upgradeablemodel.cpp
 upgradeablemodel.h
-/home/tokyo/clone/cuteclone/updator/upgradeablemodel.h
+/home/tokyo/Documents/GitHub/matsya-updater/upgradeablemodel.h
 
-/home/tokyo/clone/cuteclone/updator/upgradeablemodel.h
+/home/tokyo/Documents/GitHub/matsya-updater/upgradeablemodel.h
 QAbstractListModel
 -
 

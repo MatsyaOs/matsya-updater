@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/updator
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/matsya-updater
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/updator/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/matsya-updater/build
 
 # Utility rule file for translations.
 
@@ -73,24 +73,24 @@ CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/updator/build
 include CMakeFiles/translations.dir/progress.make
 
 ../translations/en_US.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/updator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../translations/en_US.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/updator/translations/en_US.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../translations/en_US.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/matsya-updater/translations/en_US.ts
 
 ../translations/zh_CN.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/updator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../translations/zh_CN.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/updator/translations/zh_CN.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../translations/zh_CN.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/matsya-updater/translations/zh_CN.ts
 
 CMakeFiles/translations: en_US.qm
 CMakeFiles/translations: zh_CN.qm
 
 
 en_US.qm: ../translations/en_US.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/updator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating en_US.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/updator/translations/en_US.ts -qm /home/tokyo/clone/cuteclone/updator/build/en_US.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating en_US.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/matsya-updater/translations/en_US.ts -qm /home/tokyo/Documents/GitHub/matsya-updater/build/en_US.qm
 
 zh_CN.qm: ../translations/zh_CN.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/updator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating zh_CN.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/updator/translations/zh_CN.ts -qm /home/tokyo/clone/cuteclone/updator/build/zh_CN.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating zh_CN.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/matsya-updater/translations/zh_CN.ts -qm /home/tokyo/Documents/GitHub/matsya-updater/build/zh_CN.qm
 
 translations: ../translations/en_US.ts
 translations: ../translations/zh_CN.ts
@@ -111,6 +111,6 @@ CMakeFiles/translations.dir/clean:
 .PHONY : CMakeFiles/translations.dir/clean
 
 CMakeFiles/translations.dir/depend:
-	cd /home/tokyo/clone/cuteclone/updator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/cuteclone/updator /home/tokyo/clone/cuteclone/updator /home/tokyo/clone/cuteclone/updator/build /home/tokyo/clone/cuteclone/updator/build /home/tokyo/clone/cuteclone/updator/build/CMakeFiles/translations.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/matsya-updater/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/matsya-updater /home/tokyo/Documents/GitHub/matsya-updater /home/tokyo/Documents/GitHub/matsya-updater/build /home/tokyo/Documents/GitHub/matsya-updater/build /home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles/translations.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/translations.dir/depend
 

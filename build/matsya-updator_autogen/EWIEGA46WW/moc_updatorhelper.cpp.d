@@ -1,5 +1,13 @@
-/home/tokyo/clone/cuteclone/updator/build/cutefish-updator_autogen/EWIEGA46WW/moc_upgradeablemodel.cpp: /home/tokyo/clone/cuteclone/updator/upgradeablemodel.h \
-  /home/tokyo/clone/cuteclone/updator/build/cutefish-updator_autogen/moc_predefs.h \
+/home/tokyo/Documents/GitHub/matsya-updater/build/matsya-updator_autogen/EWIEGA46WW/moc_updatorhelper.cpp: /home/tokyo/Documents/GitHub/matsya-updater/updatorhelper.h \
+  /home/tokyo/Documents/GitHub/matsya-updater/build/matsya-updator_autogen/moc_predefs.h \
+  /usr/include/QApt/Backend \
+  /usr/include/QApt/Config \
+  /usr/include/QApt/Transaction \
+  /usr/include/apt-pkg/cacheiterators.h \
+  /usr/include/apt-pkg/macros.h \
+  /usr/include/apt-pkg/mmap.h \
+  /usr/include/apt-pkg/pkgcache.h \
+  /usr/include/apt-pkg/string_view.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \
   /usr/include/c++/10/array \
@@ -121,6 +129,13 @@
   /usr/include/features.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
+  /usr/include/qapt/backend.h \
+  /usr/include/qapt/config.h \
+  /usr/include/qapt/dependencyinfo.h \
+  /usr/include/qapt/downloadprogress.h \
+  /usr/include/qapt/globals.h \
+  /usr/include/qapt/package.h \
+  /usr/include/qapt/transaction.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/string.h \
@@ -135,6 +150,10 @@
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-linux.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-map-flags-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-shared.h \
+  /usr/include/x86_64-linux-gnu/bits/mman.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
@@ -176,8 +195,16 @@
   /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractListModel \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDateTime \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QHash \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariantMap \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
@@ -190,6 +217,7 @@
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
@@ -212,6 +240,7 @@
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
@@ -222,12 +251,15 @@
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/mman.h \
   /usr/lib/gcc/x86_64-linux-gnu/10/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/10/include/syslimits.h
