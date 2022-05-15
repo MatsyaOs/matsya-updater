@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "/home/tokyo/clone/cuteclone/updator/build/cutefish-updator_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/clone/cuteclone/updator/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/clone/cuteclone/updator/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/clone/cuteclone/updator",
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/clone/cuteclone/updator",
+	"INCLUDE_DIR" : "/home/tokyo/clone/cuteclone/updator/build/cutefish-updator_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/tokyo/clone/cuteclone/updator/UpdatingPage.qml",
+		"/home/tokyo/clone/cuteclone/updator/UpdatePage.qml",
+		"/home/tokyo/clone/cuteclone/updator/HomePage.qml",
+		"/home/tokyo/clone/cuteclone/updator/FinishedPage.qml",
+		"/home/tokyo/clone/cuteclone/updator/main.qml",
+		"/home/tokyo/clone/cuteclone/updator/images/laptop.png",
+		"/home/tokyo/clone/cuteclone/updator/images/done.svg",
+		"/home/tokyo/clone/cuteclone/updator/images/logo.png",
+		"/home/tokyo/clone/cuteclone/updator/images/check_failed.svg"
+	],
+	"LOCK_FILE" : "/home/tokyo/clone/cuteclone/updator/build/CMakeFiles/cutefish-updator_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/tokyo/clone/cuteclone/updator/build/CMakeFiles/cutefish-updator_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/tokyo/clone/cuteclone/updator/qml.qrc",
+	"VERBOSITY" : 0
+}

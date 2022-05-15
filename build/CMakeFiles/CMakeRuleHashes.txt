@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+e3739a8c817ce3ace2cf24e4ea803bae ../translations/en_US.ts
+bd4f6ad1b3fe4041c0bbb0e96d9d771c ../translations/zh_CN.ts
+a0f30594467c0bfc282ca02016a5dc75 CMakeFiles/cutefish-updator_autogen
+ac1431cab9c4c10ed5571b751007297a CMakeFiles/translations
+71af75de1fbd250c312c44db93f18f1f cutefish-updator_autogen/EWIEGA46WW/qrc_qml.cpp
+4b36c3d85df44e0d6b3c0b178b0f6573 en_US.qm
+27c6af3f8c39906a9a02de0cc3921182 zh_CN.qm
