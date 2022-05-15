@@ -1,27 +1,9 @@
-/*
- * Copyright (C) 2021 CutefishOS Team.
- *
- * Author:     Kate Leet <kate@cutefishos.com>
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
 
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
-import FishUI 1.0 as FishUI
-import Cutefish.Updator 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Updator 1.0
 
 Item {
     id: control
@@ -32,7 +14,8 @@ Item {
 //        width: 167
 //        height: 26
 //        sourceSize: Qt.size(500, 76)
-//        source: "qrc:/images/logo.png"
+//        source: MatsyaUI.Theme.darkMode ? "qrc:/images/dark/logo.png"
+                                                      : "qrc:/images/light/logo.png"
 //        asynchronous: true
 //        visible: !_listView.visible
 //    }
@@ -48,7 +31,8 @@ Item {
         Image {
             Layout.preferredWidth: 143
             Layout.preferredHeight: 172
-            source: "qrc:/images/done.svg"
+            source: MatsyaUI.Theme.darkMode ? "qrc:/images/dark/done.svg"
+                                                                  : "qrc:/images/light/done.svg"
             sourceSize: Qt.size(143, 172)
             Layout.alignment: Qt.AlignHCenter
             asynchronous: true
@@ -56,7 +40,7 @@ Item {
         }
 
         Item {
-            height: FishUI.Units.largeSpacing * 2
+            height: MatsyaUI.Units.largeSpacing * 2
             visible: !_listView.visible
         }
 
@@ -82,7 +66,7 @@ Item {
         }
 
         Item {
-            height: FishUI.Units.smallSpacing
+            height: MatsyaUI.Units.smallSpacing
             visible: _listView.visible
         }
 
@@ -91,7 +75,7 @@ Item {
             model: upgradeableModel
 
             visible: _listView.count !== 0
-            spacing: FishUI.Units.largeSpacing
+            spacing: MatsyaUI.Units.largeSpacing
             clip: true
 
             ScrollBar.vertical: ScrollBar {}
@@ -105,17 +89,17 @@ Item {
 
                 Rectangle {
                     anchors.fill: parent
-                    anchors.leftMargin: FishUI.Units.largeSpacing
-                    anchors.rightMargin: FishUI.Units.largeSpacing
-                    color: FishUI.Theme.secondBackgroundColor
-                    radius: FishUI.Theme.mediumRadius
+                    anchors.leftMargin: MatsyaUI.Units.largeSpacing
+                    anchors.rightMargin: MatsyaUI.Units.largeSpacing
+                    color: MatsyaUI.Theme.secondBackgroundColor
+                    radius: MatsyaUI.Theme.mediumRadius
                 }
 
                 RowLayout {
                     anchors.fill: parent
-                    anchors.leftMargin: FishUI.Units.largeSpacing * 1.5
-                    anchors.rightMargin: FishUI.Units.largeSpacing * 1.5
-                    spacing: FishUI.Units.smallSpacing
+                    anchors.leftMargin: MatsyaUI.Units.largeSpacing * 1.5
+                    anchors.rightMargin: MatsyaUI.Units.largeSpacing * 1.5
+                    spacing: MatsyaUI.Units.smallSpacing
 
                     Image {
                         height: 32
@@ -146,7 +130,7 @@ Item {
 
                             Label {
                                 text: model.version
-                                color: FishUI.Theme.disabledTextColor
+                                color: MatsyaUI.Theme.disabledTextColor
                             }
 
                             Item {
@@ -158,14 +142,14 @@ Item {
                     // Size
                     Label {
                         text: model.downloadSize
-                        color: FishUI.Theme.disabledTextColor
+                        color: MatsyaUI.Theme.disabledTextColor
                     }
                 }
             }
         }
 
         Item {
-            height: FishUI.Units.smallSpacing
+            height: MatsyaUI.Units.smallSpacing
         }
 
         Button {
@@ -177,7 +161,7 @@ Item {
         }
 
         Item {
-            height: FishUI.Units.largeSpacing
+            height: MatsyaUI.Units.largeSpacing
         }
     }
 }

@@ -1,21 +1,4 @@
-/*
- * Copyright (C) 2021 CutefishOS Team.
- *
- * Author:     Kate Leet <kate@cutefishos.com>
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+
 
 #include "updatorhelper.h"
 #include "upgradeablemodel.h"
@@ -25,9 +8,9 @@
 #include <QTimer>
 #include <QDebug>
 
-const static QString s_dbusName = "com.cutefish.Session";
+const static QString s_dbusName = "com.matsya.Session";
 const static QString s_pathName = "/Session";
-const static QString s_interfaceName = "com.cutefish.Session";
+const static QString s_interfaceName = "com.matsya.Session";
 
 UpdatorHelper::UpdatorHelper(QObject *parent)
     : QObject(parent)
@@ -37,7 +20,7 @@ UpdatorHelper::UpdatorHelper(QObject *parent)
 {
     m_backend->init();
 
-    QSettings settings("/etc/cutefish", QSettings::IniFormat);
+    QSettings settings("/etc/matsya", QSettings::IniFormat);
     m_currentVersion = settings.value("Version").toString();
 
     QTimer::singleShot(100, this, &UpdatorHelper::checkUpdates);

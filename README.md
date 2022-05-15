@@ -1,6 +1,6 @@
-# CutefishOS Updator
+# MatsyaOS Updator
 
-CutefishOS system update tool.
+MatsyaOS system update tool.
 
 ## Dependencies
 

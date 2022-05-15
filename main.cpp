@@ -1,21 +1,4 @@
-/*
- * Copyright (C) 2021 CutefishOS Team.
- *
- * Author:     Kate Leet <kate@cutefishos.com>
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+
 
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
@@ -36,17 +19,17 @@ int main(int argc, char *argv[])
 
     QGuiApplication app(argc, argv);
 
-    const char *uri = "Cutefish.Updator";
+    const char *uri = "Matsya.Updator";
     qmlRegisterType<UpdatorHelper>(uri, 1, 0, "Updator");
     qmlRegisterType<UpgradeableModel>(uri, 1, 0, "UpgradeableModel");
 
-    if (!QDBusConnection::sessionBus().registerService("com.cutefish.UpdatorGui")) {
+    if (!QDBusConnection::sessionBus().registerService("com.matsya.UpdatorGui")) {
         return 0;
     }
 
     // Translations
     QLocale locale;
-    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/cutefish-updator/translations/").arg(locale.name());
+    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/matsya-updator/translations/").arg(locale.name());
     if (QFile::exists(qmFilePath)) {
         QTranslator *translator = new QTranslator(QGuiApplication::instance());
         if (translator->load(qmFilePath)) {

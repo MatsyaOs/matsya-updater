@@ -9,5 +9,11 @@
         <file>images/logo.png</file>
         <file>images/check_failed.svg</file>
         <file>images/done.svg</file>
+        <file>images/dark/logo.png</file>
+        <file>images/light/logo.png</file>
+        <file>images/light/check_failed.svg</file>
+        <file>images/dark/check_failed.svg</file>
+        <file>images/light/done.svg</file>
+        <file>images/dark/done.svg</file>
     </qresource>
 </RCC>
