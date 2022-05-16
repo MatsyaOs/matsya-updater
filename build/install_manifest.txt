@@ -1,0 +1,4 @@
+/usr/bin/matsya-updator
+/usr/share/matsya-updator/translations/en_US.qm
+/usr/share/matsya-updator/translations/zh_CN.qm
+/usr/share/applications/matsya-updator.desktop
