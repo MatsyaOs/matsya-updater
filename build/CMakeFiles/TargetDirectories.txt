@@ -1,9 +1,0 @@
-/home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles/install/strip.dir
-/home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles/install/local.dir
-/home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles/install.dir
-/home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles/list_install_components.dir
-/home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles/rebuild_cache.dir
-/home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles/translations.dir
-/home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles/edit_cache.dir
-/home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles/matsya-updator.dir
-/home/tokyo/Documents/GitHub/matsya-updater/build/CMakeFiles/matsya-updator_autogen.dir

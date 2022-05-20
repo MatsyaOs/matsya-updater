@@ -1,8 +1,0 @@
-# Hashes of file build rules.
-02f0d66c8ff859b9630f69a20f08c4d3 ../translations/en_US.ts
-486c2f91cc66fce698db1e0c1593e02a ../translations/zh_CN.ts
-8e83ed47cbbede3debc1d4433ab7f44d CMakeFiles/matsya-updator_autogen
-9b000322ec6e176bf3f31702a639812f CMakeFiles/translations
-7f131ac5c9b67dbc15f5e5587a9cb10f en_US.qm
-28d5eb6f4b7b9ee9aaab0acec834cdeb matsya-updator_autogen/EWIEGA46WW/qrc_qml.cpp
-aa15ba3704c9c0e693646f9a163ecda9 zh_CN.qm
